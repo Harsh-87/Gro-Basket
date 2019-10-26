@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back5"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Login_activity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/relativeLayout"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:layout_marginTop="20dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:text="Email Id :"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic" />
+
+                    <EditText
+                        android:id="@+id/login_email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:inputType="textEmailAddress"
+                        android:text="Password : "
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic" />
+
+                    <EditText
+                        android:id="@+id/login_password"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:hint="Password"
+                        android:inputType="textPassword"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/login_submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginBottom="20sp"
+                        android:background="@drawable/round"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:text="Submit"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:inputType="textEmailAddress"
+                        android:text=" \nOR\n "
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:inputType="textEmailAddress"
+                        android:text="Mobile number : "
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic" />
+
+                    <EditText
+                        android:id="@+id/login_mobile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:hint="10 digit mobile number"
+                        android:inputType="number"
+                        android:maxEms="10"
+                        android:minEms="10"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/mobile_submit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20sp"
+                        android:layout_marginBottom="20sp"
+                        android:background="@drawable/round"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:text="Continue"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="italic" />
+
+                </TableRow>
+            </TableLayout>
+
+
+            <com.google.android.gms.common.SignInButton
+                android:id="@+id/google_signin_button"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="50dp"
+                android:layout_marginTop="30dp"
+                android:alpha="0.9" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="50dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/signUp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sign Up !"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/forgot_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="forgot password ?"
+                    android:textColor="@android:color/black"
+
+                    android:textSize="15sp"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/login_progress"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerInParent="true"
+            android:alpha="0.7"
+            android:background="@android:color/black"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</ScrollView>

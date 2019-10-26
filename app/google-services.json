@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "776833111390",
+    "firebase_url": "https://prepinsta-5ba1a.firebaseio.com",
+    "project_id": "prepinsta-5ba1a",
+    "storage_bucket": "prepinsta-5ba1a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776833111390:android:cdf99b357001510a",
+        "android_client_info": {
+          "package_name": "com.example.prepinsta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776833111390-fs0dbu3kiaqkt9eu1m4ulgb1rcub4sc2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prepinsta",
+            "certificate_hash": "f7062e8383be0b4c6a441ca32326ed732d71b105"
+          }
+        },
+        {
+          "client_id": "776833111390-ur9kqhh36fisvt3ah6doaeuk4hd52sl4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prepinsta",
+            "certificate_hash": "54928e5c3faf5904b3b8697368654a71c8e0079b"
+          }
+        },
+        {
+          "client_id": "776833111390-ekbpkeum8rc879qvgc70vchctghc24sl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJd92pjXU599n8mtp5GKr-VWS69sKJS6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776833111390-ekbpkeum8rc879qvgc70vchctghc24sl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

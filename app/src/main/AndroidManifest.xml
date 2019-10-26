@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.prepinsta">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Gro Basket"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Acknowledgement"></activity>
+        <activity android:name=".VerifyPhoneActivity" />
+        <activity
+            android:name=".SignUp_activity"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Profile"
+            android:label="Profile"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Products"
+            android:label="Products"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Cart"
+            android:label="Your Cart"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Grocery"
+            android:label="Grocery Store"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Home_page"
+            android:label="Market"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:label="Change Password"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".Login_activity"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

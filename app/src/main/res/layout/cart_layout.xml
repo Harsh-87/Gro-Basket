@@ -1,0 +1,100 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8sp"
+    android:elevation="10sp"
+    app:cardCornerRadius="20sp"
+    tools:context=".Cart_RecyclerView_Items">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:orientation="horizontal">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10sp">
+
+                <TextView
+                    android:id="@+id/cart_item"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:gravity="center"
+                    android:text="Line 1"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:gravity="right"
+                    android:text=" Rs "
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/cart_item_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:layout_marginRight="10sp"
+                    android:layout_weight=".5"
+                    android:text="0.00"
+                    android:textSize="20sp" />
+
+
+            </TableRow>
+            <WebView
+                android:id="@+id/web"
+                android:layout_width="1sp"
+                android:visibility="invisible"
+                android:layout_height="1sp"/>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="5sp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".2"
+                    android:gravity="right"
+                    android:layout_marginLeft="10sp"
+                    android:text=" Quantity "
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/cart_quantity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10sp"
+                    android:layout_weight=".2"
+                    android:text="0"
+                    android:textSize="20sp" />
+                <Button
+                    android:id="@+id/cart_remove"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:text="Remove"
+                    android:background="@drawable/redround"
+                    android:layout_marginRight="10sp"
+                    />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
