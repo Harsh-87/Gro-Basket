@@ -4,25 +4,21 @@ It is an android application which helps customers to purchase groceries online.
 
 - - -
 ### Sign in Page Preview
-<img align="left" width="300" height="500" src="ReadmeImages/signinpage.jpeg"/>
- 
- 
+<img width="250" src="ReadmeImages/signinpage.jpeg" />
+
 ### Market Catalogue Page Preview   
-<img align="left" width="300" height="500" src="ReadmeImages/MarketPage.jpeg"/>
+<img width="250" src="ReadmeImages/MarketPage.jpeg" />   
 
-
-### Grocery Stores Page Preview  
-<img align="left" width="300" height="500" src="ReadmeImages/groceryStorePage.jpeg">
-
+### Grocery Stores Page Preview
+<img width="250" src="ReadmeImages/groceryStorePage.jpeg"/>   
 
 ### Products catalogue Page Preview   
-<img align="left" width="300" height="500" src="ReadmeImages/productsPage.jpeg">
-
+<img width="250" src="ReadmeImages/productsPage.jpeg"/>   
 
 ### Cart Page Preview   
-<img align="left" width="300" height="500" src="ReadmeImages/CartPage.jpeg">
+<img width="250" src="ReadmeImages/CartPage.jpeg"/>   
 
+### Acknowlegement Page Preview   
+<img width="250" src="ReadmeImages/AcknowledgementPage.jpeg"/>   
 
-### Acknowlegement Page Preview    
-<img align="left" width="300" height="500" src="ReadmeImages/AcknowledgementPage.jpeg">
 
