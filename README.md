@@ -21,4 +21,4 @@ It is an android application which helps customers to purchase groceries online.
 ### Acknowlegement Page Preview   
 <img width="250" src="ReadmeImages/AcknowledgementPage.jpeg"/>   
 
-
+- - -
